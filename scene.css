@@ -32,7 +32,8 @@ body {
 #screenbox {
     position:relative;
     aspect-ratio: 4 / 3;
-    background-color: transparent;
+    /*background-color: transparent;*/
+    background-color: #A7EEFE;
     overflow:hidden;
     transform: scale(100%);
     border-radius: 1em;
@@ -69,7 +70,7 @@ body {
 .jojo {
     bottom: -30%; 
     z-index: 15; 
-    filter: brightness(1.5) ; 
+    filter: brightness(1.3) ; 
     animation: 60s linear infinite bigjojo;
     width: 1620px;
     left: -50%;
